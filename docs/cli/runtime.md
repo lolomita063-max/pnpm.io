@@ -11,7 +11,8 @@ Alias: `rt`
 
 ### set
 
-Install the specified version of a runtime.
+pnpm runtime set <name> <version>
+
 
 ```
 pnpm runtime set <name> <version> [-g]
@@ -56,7 +57,6 @@ pnpm runtime set node nightly -g
 pnpm runtime set node rc -g
 pnpm runtime set node rc/22 -g
 pnpm runtime set node 22.0.0-rc.4 -g
-```
 
 Install an LTS version of Node.js using its [codename]:
 
